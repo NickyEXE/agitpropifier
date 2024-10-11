@@ -1,0 +1,83 @@
+main {
+  background-image: url("assets/ravi\ sez.png");
+  background-repeat: no-repeat;
+  background-color: black;
+  /* background-size: cover; */
+  height: 915px;
+  width: 396px;
+  margin: 0 auto;
+  /* display: flex; */
+  /* max-width: 1080px; */
+  /* width: 100vw; */
+  /* height: 100vh; */
+  /* max-height: 2400px; */
+}
+
+#pamphlet {
+  margin: 290px 2em;
+  min-height: 600px;
+  text-align: center;
+  color: white;
+  font-family: 'agitprop';
+  background: rgba(0, 0, 0, .2);
+  -webkit-text-stroke-width: .4px;
+  -webkit-text-stroke-color: black;
+}
+
+form {
+  color: white;
+  text-align: center;
+  margin: 0 auto;
+}
+
+form input {
+  height: 6em;
+  width: 350px;
+  font-size: 1.4em;
+}
+
+form textarea {
+  width: 350px;
+  height: 30em;
+  line-height: 2em;
+}
+
+#pamphlet p {
+  font-size: 1em;
+  font-family: 'typewriter';
+}
+
+#pamphlet p:first-of-type {
+  transform: rotate(1deg);
+}
+
+#pamphlet p:not(p:first-of-type){
+  transform: rotate(-1deg);
+}
+
+/* #textbody p:first-child {
+
+} */
+
+body {
+  background-color: black;
+  display: flex;
+  /* background-image: url("ravi\ sez.png");
+  background-repeat: no-repeat;
+  background-color: black; */
+  /* background-size: cover; */
+  /* height: 915px;
+  width: 396px;
+   */
+  /* display: flex; */
+}
+
+@font-face {
+  font-family: 'agitprop'; /*a name to be used later*/
+  src: url('assets/OctoberGuardCondensed-LM4n.otf'); /*URL to font*/
+}
+
+@font-face {
+  font-family: 'typewriter'; /*a name to be used later*/
+  src: url('assets/momstypewriter.ttf'); /*URL to font*/
+}
